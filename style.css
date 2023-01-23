@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part */
+
+.header{
+    background-image: url("/images/banner/banner3.png");
+    width: 1600;
+    height: 808px;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.banner{
+ text-align: right;
+}
+
+.banner-title{
+    padding-top: 200px;
+    padding-right: 170px;
+    display:flex ;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF; 
+    font-family: 'Work Sans'; 
+}
+.banner-text{
+    text-align: right;
+    line-height: 26px;
+    color: #FFFFFF;
+    display:flex ;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-right: 170px;
+    font-weight: 450px;
+    font-size: 17px;
+
+}
+
+.primary-btn{
+    color: rgb(33, 77, 160);
+    margin-right: 170px;
+    margin-top: 32px;
+    width: 160px;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 600;
+    
+    
+}
+
+/* main part */
+
+/* failure section */
+
+.failure-section{
+    width: 1072px;
+    height: 720px;
+    
+    margin:130px 320px 130px 205px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     
+    
+
+}
+
+.failure-img{
+    width: 570px;
+    margin: 10px;
+}
+.failure-text{
+    width:415px;
+    padding: 15px;
+    margin: 150px 10px 0px;
+     
+}
+.failure-text >h3{
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure-text >p{
+    width: 380px;
+    padding: 20px 0px;
+    line-height: 26px;
+    color: #444343;
+}
+.failuer-li li{
+    list-style-image: url("/images//icons/download.png");
+    list-style-position: inside;
+    padding: 5px 0;
+    color: #444343;
+      
+}
+
+/* about Section */
+
+.about-section{
+    width: 1070px;
+    height: 300px;
+    margin: 50px auto;
+      
+}
+
+.about-body{
+    display: flex;
+    justify-content:space-between;
+}
+.about-title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 46px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.about-img img{
+    width: 280px;
+    height:220px ;
+    border-radius: 5px;
+}
+.about-text{
+    width:720px ;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 5px;
+   
+}
+.about-text h4{
+    padding: 0px 10px ;
+    font-weight: lighter;
+    font-size: 35px;
+}
+.about-text h5{
+    padding:2px 0px 8px;
+    font-size: 22px;
+    font-weight: 200;
+}
+hr{
+     width: 220px;
+}
+
+.about-text p{
+    padding-top: 10px;
+    line-height: 24px;
+}
+
+/* plan section */
+
+.plan-section{
+    margin: 100px auto 50px;
+    width: 1072px;
+}
+.plan-title{
+    margin: 10px 0px 40px;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plan-body{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-card{
+    text-align: center;
+}
+.plan-card h4{
+    padding: 10px;
+}
+
+/* last section */
+
+.last-section{
+    width: 1072px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(19, 70, 180), rgb(19, 70, 180 ,0)), url("/images/watch.png");
+    margin: 50px auto;
+    margin: 100px auto;
+}
+.liner-div{
+    width: 400px;
+    height: 180px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Work Sans';     
+}
+.liner-div p{
+    font-size: 40px ;
+    width: 700;
+    line-height: 46px;
+    color:#FFFFFF;
+     
+}
+.call-btn{
+    padding: 12px 25px;
+    margin-top: 15px;
+    
+    font-size: 18px;
+    color: rgb(16, 66, 141);
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+     
+    background-color: #151414;
+    width: 1600px;
+    height: 570px;
+    
+}
+.future{
+    width: 450px;
+    height: 370px;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-left: -100px;
+  
+}
+.future h4{
+    font-weight: 700px;
+    font-size: 45px;
+    padding: 10px 0px;
+}
+.future p{
+    line-height: 26px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.future img{
+    padding-right: 10px ;
+}
+
+.subscribe-form{
+    width: 325px;
+    height: 205px;
+    margin-top: 150px;
+  margin-left: -100px;
+}
+
+#form p{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+     padding-bottom: 5px;
+}
+
+#form input{
+    background-color: #151414 ;
+    padding: 10px 20px;
+    color: white;
+    width: 250px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.subscribe-btn{
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(10, 123, 216);
+}
+
+ 
